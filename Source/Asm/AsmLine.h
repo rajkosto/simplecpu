@@ -67,7 +67,7 @@ BOOST_FUSION_ADAPT_STRUCT
 	AsmLine,
 	(boost::optional<string>, label)
 	(OpCodes::OpCodeType, operation)
-	(vector<AsmLine::Operand>, operands)
+	(std::vector<AsmLine::Operand>, operands)
 	(boost::optional<int>, dupCount)
 	(boost::optional<size_t>, insPos)
 	(boost::optional<size_t>, insSize)
