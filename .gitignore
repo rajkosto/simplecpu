@@ -1,0 +1,6 @@
+/Build/*
+/Out/*
+/Binaries/*.exe
+*.sdf
+*.opensdf
+*.suo
