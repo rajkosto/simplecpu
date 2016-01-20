@@ -1,6 +1,7 @@
 #include "Cpu.h"
 #include <sstream>
 #include <iostream>
+#include <stdio.h>
 
 namespace
 {
